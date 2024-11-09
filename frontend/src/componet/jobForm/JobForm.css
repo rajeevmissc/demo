@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+  
+  #logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .container-from {
+    max-width: 600px;
+    margin: auto;
+    background: white; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px; /* Add space from the top to avoid overlap with logo */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    color: #666;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="file"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .name-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .name-fields input {
+    flex: 1;
+  }
+  
+  .time-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .time-slots button {
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .time-slots button.selected {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  
