@@ -1,0 +1,25 @@
+.job-list-container {
+    margin-top: 30px;
+}
+
+.job-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.job-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
+
+.job-card .job-description {
+    margin-top: 10px;
+}

@@ -1,0 +1,75 @@
+/* General Container Styles */
+.job-create-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+.job-create-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Grouped Form Field Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styles */
+.label {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Input and Select Styles */
+.input, .select, .textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input:focus, .select:focus, .textarea:focus {
+    border-color: #007bff;
+}
+
+/* Checkbox Styles */
+.checkbox {
+    margin-right: 8px;
+}
+
+.checkbox-label {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Button Styles */
+.submit-button {
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
